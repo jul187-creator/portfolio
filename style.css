@@ -1,6 +1,88 @@
+html {
+    --color-accent: oklch(65% 50% 0);
+    accent-color: var(--color-accent);
+}
+
 body {
-  /* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	 */
-  font: 100%/1.5 system-ui;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    max-width: 100ch;
+    margin-inline: auto;
+    padding: 1em;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    margin-bottom: 2em;
+    border-bottom: 1px solid oklch(80% 3% 200);
+}
+
+nav a {
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a:hover {
+    border-bottom: 0.4em solid var(--color-accent);
+    background-color: oklch(from var(--color-accent) 95% 5% h);
+}
+
+nav a.current {
+    border-bottom: 0.4em solid oklch(80% 3% 200);
+    padding-bottom: 0.1em;
+}
+
+/* Headings */
+h1 {
+    font-size: 400%;
+    line-height: 1.1;
+    text-wrap: balance;
+}
+
+h2, h3 {
+    line-height: 1.1;
+    text-wrap: balance;
+}
+
+/* Contact Form */
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+}
+
+label {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: 1 / -1;
+}
+
+input, textarea, button {
+    font: inherit;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Projects Grid */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 1em;
+}
+
+.projects article {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+
+.projects h2 {
+    margin: 0;
 }
