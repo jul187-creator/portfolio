@@ -86,3 +86,29 @@ input, textarea {
 .projects h2 {
     margin: 0;
 }
+
+/* General spacing */
+section {
+    margin-bottom: 2em;
+}
+
+article {
+    margin-bottom: 1em;
+}
+
+h2 {
+    border-bottom: 1px solid oklch(80% 3% 200);
+    padding-bottom: 0.3em;
+}
+
+button {
+    padding: 0.5em;
+}
+
+textarea {
+    min-height: 6em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
