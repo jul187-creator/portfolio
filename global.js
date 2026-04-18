@@ -7,7 +7,7 @@ function $$(selector, context = document) {
 let pages = [
     { url: "", title: "Home" },
     { url: "projects/", title: "Projects" },
-    { url: "cv/", title: "CV" },
+    { url: "resume/", title: "CV" },
     { url: "contact/", title: "Contact" },
     { url: "https://github.com/jul187-creator/portfolio", title: "GitHub" }
 ];
@@ -69,3 +69,20 @@ if ("colorScheme" in localStorage) {
     document.documentElement.style.setProperty("color-scheme", localStorage.colorScheme);
     select.value = localStorage.colorScheme;
 }
+
+let form = document.querySelector("form");
+
+form?.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    let data = new FormData(form);
+    let url = form.action + "?";
+    let params = [];
+
+    for (let [name, value] of data) {
+        params.push(`${name}=${encodeURIComponent(value)}`);
+    }
+
+    url += params.join("&");
+    location.href = url;
+});
