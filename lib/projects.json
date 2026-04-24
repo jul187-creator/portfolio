@@ -1,62 +1,74 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio dolore aut libero beatae repellendus architecto, fugiat et dignissimos quo? Quia, eius! Dolorem architecto cumque assumenda dicta iste quas tempora explicabo."
+        "title": "DSC 106 Project 1",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "An expository visualization project focused on clearly presenting data patterns and insights using effective visual design principles."
     },
     {
-        "title": "Assumenda cupiditate magnam sequi.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dignissimos, repudiandae. Labore quo explicabo quasi repudiandae quae obcaecati unde ipsum, fugiat officiis velit voluptatum libero deleniti natus corporis optio facere vitae sunt. Expedita commodi molestiae id ipsa consequatur voluptates?"
+        "title": "DSC 106 Project 2",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A persuasive and deceptive visualization project exploring how design choices can influence interpretation and audience perception."
     },
     {
-        "title": "Possimus, ratione nihil. Quasi.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Itaque, neque amet impedit officiis praesentium delectus nisi exercitationem, ducimus non accusantium rem optio quidem perspiciatis illum, est maxime quibusdam tempore modi reiciendis! Sequi minima beatae aspernatur veritatis accusamus cupiditate!"
+        "title": "DSC 106 Project 3",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "An interactive visualization project using user interaction and dynamic visual elements to improve data exploration and understanding."
     },
     {
-        "title": "Voluptatem quaerat eos rerum.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Consequuntur doloribus dolorem ratione numquam ab nostrum cumque nisi optio quaerat animi provident pariatur distinctio quasi aperiam molestiae, explicabo voluptatibus fuga sit vitae? Vero omnis sint quaerat eius dolore minima."
+        "title": "DSC 106 Final Project",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A final project combining multiple visualization techniques to communicate complex data stories through interactive and effective design."
     },
     {
-        "title": "Necessitatibus non perspiciatis laboriosam!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Officiis ipsum quisquam eos obcaecati, in aut unde quae laudantium totam molestiae minima inventore repellendus blanditiis. Quaerat nam in vel facilis vero reprehenderit ex ipsam ab, dolorum rerum nulla numquam."
+        "title": "Lab 1: Introduction to the Web platform",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A personal portfolio website built with HTML."
     },
     {
-        "title": "Commodi sunt aut harum?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Eum earum quis facilis eius hic explicabo amet tempore, quae neque blanditiis aut cumque quibusdam voluptatum, doloremque illum? Eaque dolor quae ut illum sapiente optio magnam quam perspiciatis impedit nesciunt!"
+        "title": "Lab 2: Styling with CSS",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A styled portfolio website using CSS layout, navigation, and custom properties."
     },
     {
-        "title": "Illum saepe corporis sint!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Consectetur ad itaque amet quae tempora aperiam fuga ipsum eos, modi unde tenetur praesentium pariatur illum soluta dicta minus perspiciatis delectus atque neque voluptatibus dolore doloremque maiores! Deleniti, fugiat commodi."
+        "title": "Lab 3: Introduction to JS",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A portfolio website enhanced with basic JavaScript interactions."
     },
     {
-        "title": "Temporibus ab sed aliquam?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Hic itaque aperiam eos consequatur architecto odit esse voluptate natus consequuntur, dolorem et a earum vitae, non labore culpa ipsa autem nesciunt ea excepturi, eum alias explicabo animi aspernatur? Earum."
+        "title": "Lab 4: JavaScript II",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A JavaScript lab using JSON data, reusable rendering functions, and GitHub API data."
     },
     {
-        "title": "Eaque optio illum vero.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Magnam fugiat saepe animi, optio ipsum ad, eum impedit ab odit fuga rem atque autem omnis eveniet illo enim quidem! Explicabo qui rem dolores hic. Eos rem earum quibusdam numquam."
+        "title": "Lab 5: Visualizing categorical data with D3",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "Created categorical data visualizations using D3.js to represent grouped comparisons and improve data communication."
     },
     {
-        "title": "Eos perferendis corrupti doloremque!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Aperiam necessitatibus aliquid repellendus quidem quos sed eaque at nesciunt repellat quasi voluptatibus, est eum quam fuga cum rerum. Sapiente id quia deserunt maxime enim tenetur, delectus explicabo rerum ad!"
+        "title": "Lab 6: Visualizing quantitative data with D3",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "Built quantitative visualizations using D3.js to analyze numerical trends, distributions, and relationships in data."
     },
     {
-        "title": "Dolorum aliquam magnam officiis!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Deserunt, facere doloremque adipisci voluptates delectus quisquam harum, natus sed quas fugiat ea id obcaecati pariatur. Amet repellendus iste, debitis illum odit placeat accusamus, natus vel adipisci et eveniet inventore!"
+        "title": "Lab 7: Geospatial Visualizations",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "Designed map-based visualizations to explore geographic patterns and spatial relationships using geospatial data."
     },
     {
-        "title": "Alias soluta ipsam minima.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Fugit consequuntur sit repellendus, incidunt quasi corrupti labore quod fuga magnam nulla reprehenderit praesentium soluta dolorem fugiat consequatur ad nostrum animi minus delectus tempore doloremque voluptates dolores. Iste, fuga ab!"
+        "title": "Lab 8: Animation & Scrollytelling",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "Developed animated and scroll-driven visual stories to guide users through data narratives using transitions and storytelling techniques."
     }
 ]
