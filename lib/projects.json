@@ -1,0 +1,74 @@
+[
+    {
+        "title": "DSC 106 Project 1",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A data visualization project about food price and processing level."
+    },
+    {
+        "title": "Lab 1: Portfolio Website",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A personal portfolio website built with HTML."
+    },
+    {
+        "title": "Lab 2: CSS Styling",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A styled portfolio website using CSS layout, navigation, and custom properties."
+    },
+    {
+        "title": "Lab 3: JavaScript I",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A portfolio website enhanced with basic JavaScript interactions."
+    },
+    {
+        "title": "Lab 4: JavaScript II",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A JavaScript lab using JSON data, reusable rendering functions, and GitHub API data."
+    },
+    {
+        "title": "Data Visualization Critique",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A written critique of an existing data visualization."
+    },
+    {
+        "title": "Color Critique",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A reflection on color choices in a data visualization."
+    },
+    {
+        "title": "Perception Reflection",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A reflection connecting visualization design to perception concepts."
+    },
+    {
+        "title": "Persuasive Visualization",
+        "year": "2026",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A persuasive visualization comparing opposing claims using abortion access data."
+    },
+    {
+        "title": "JavaScript Practice",
+        "year": "2025",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "Practice using JavaScript to modify webpage behavior."
+    },
+    {
+        "title": "HTML Practice",
+        "year": "2025",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "Practice building structured webpages with semantic HTML."
+    },
+    {
+        "title": "CSS Layout Practice",
+        "year": "2025",
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "Practice using CSS layout, spacing, and visual hierarchy."
+    }
+]

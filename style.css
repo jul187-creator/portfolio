@@ -116,12 +116,12 @@ ul {
 }
 
 .color-scheme {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 80%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 80%;
 }
 
 .color-scheme select {
-  font: inherit;
+    font: inherit;
 }
