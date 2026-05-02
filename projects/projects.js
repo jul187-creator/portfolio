@@ -5,7 +5,6 @@ const projects = await fetchJSON('../lib/projects.json');
 
 const projectsContainer = document.querySelector('.projects');
 
-let selectedYear = null;
 let query = '';
 
 renderProjects(projects, projectsContainer, 'h2');
@@ -102,6 +101,6 @@ searchInput.addEventListener('input', (event) => {
         let values = Object.values(project).join('\n').toLowerCase();
         return values.includes(query.toLowerCase());
     });
-    
+
     renderPieChart(filteredProjects);
 });
