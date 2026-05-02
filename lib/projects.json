@@ -25,49 +25,49 @@
     },
     {
         "title": "Lab 1: Introduction to the Web platform",
-        "year": "2026",
+        "year": "2025",
         "image": "https://dsc106.com/labs/lab02/images/empty.svg",
         "description": "A personal portfolio website built with HTML."
     },
     {
         "title": "Lab 2: Styling with CSS",
-        "year": "2026",
+        "year": "2025",
         "image": "https://dsc106.com/labs/lab02/images/empty.svg",
         "description": "A styled portfolio website using CSS layout, navigation, and custom properties."
     },
     {
         "title": "Lab 3: Introduction to JS",
-        "year": "2026",
+        "year": "2025",
         "image": "https://dsc106.com/labs/lab02/images/empty.svg",
         "description": "A portfolio website enhanced with basic JavaScript interactions."
     },
     {
         "title": "Lab 4: JavaScript II",
-        "year": "2026",
+        "year": "2025",
         "image": "https://dsc106.com/labs/lab02/images/empty.svg",
         "description": "A JavaScript lab using JSON data, reusable rendering functions, and GitHub API data."
     },
     {
         "title": "Lab 5: Visualizing categorical data with D3",
-        "year": "2026",
+        "year": "2024",
         "image": "https://dsc106.com/labs/lab02/images/empty.svg",
         "description": "Created categorical data visualizations using D3.js to represent grouped comparisons and improve data communication."
     },
     {
         "title": "Lab 6: Visualizing quantitative data with D3",
-        "year": "2026",
+        "year": "2024",
         "image": "https://dsc106.com/labs/lab02/images/empty.svg",
         "description": "Built quantitative visualizations using D3.js to analyze numerical trends, distributions, and relationships in data."
     },
     {
         "title": "Lab 7: Geospatial Visualizations",
-        "year": "2026",
+        "year": "2024",
         "image": "https://dsc106.com/labs/lab02/images/empty.svg",
         "description": "Designed map-based visualizations to explore geographic patterns and spatial relationships using geospatial data."
     },
     {
         "title": "Lab 8: Animation & Scrollytelling",
-        "year": "2026",
+        "year": "2024",
         "image": "https://dsc106.com/labs/lab02/images/empty.svg",
         "description": "Developed animated and scroll-driven visual stories to guide users through data narratives using transitions and storytelling techniques."
     }
