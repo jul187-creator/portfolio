@@ -198,7 +198,7 @@ svg:has(path:hover) path:not(:hover) {
 }
 
 .selected {
-    --color: oklch(60% 45% 0) !important;
+    --color: oklch(0% 0 0) !important;
 }
 
 .selected:is(path) {
