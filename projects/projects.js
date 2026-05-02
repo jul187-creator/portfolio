@@ -97,5 +97,10 @@ searchInput.addEventListener('input', (event) => {
 
     projectsContainer.innerHTML = '';
     renderProjects(filteredProjects, projectsContainer, 'h2');
+
+    let searchFilteredProjects = projects.filter((project) => {
+        let values = Object.values(project).join('\n').toLowerCase();
+        return values.includes(query.toLowerCase());
+    });
     renderPieChart(filteredProjects);
 });
