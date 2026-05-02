@@ -91,7 +91,6 @@ let searchInput = document.querySelector('.searchBar');
 
 searchInput.addEventListener('input', (event) => {
     query = event.target.value;
-    selectedYear = null;
 
     let filteredProjects = getFilteredProjects();
 
