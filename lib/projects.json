@@ -62,8 +62,9 @@
     {
         "title": "Lab 7: Geospatial Visualizations",
         "year": "2024",
-        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-        "description": "Designed map-based visualizations to explore geographic patterns and spatial relationships using geospatial data."
+        "image": "images/bikewatching.png",
+        "description": "An interactive Mapbox visualization of Bluebikes traffic in the Boston area. The map shows bike lanes, station traffic volume, time filtering, and traffic flow direction.",
+        "url": "https://jul187-creator.github.io/bikewatching/"
     },
     {
         "title": "Lab 8: Animation & Scrollytelling",
