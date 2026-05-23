@@ -481,7 +481,6 @@ function onStepEnter(response) {
             dateStyle: 'long',
             timeStyle: 'short',
         }); 
-    document.querySelector('#commit-progress').value = timeScale(commitMaxTime);
 }
 
 const scroller = scrollama();
