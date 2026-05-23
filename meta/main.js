@@ -52,6 +52,7 @@ function processCommits(data) {
 }
 
 function renderCommitInfo(data, commits) {
+    d3.select('#stats').selectAll('*').remove();
     const dl = d3.select('#stats').append('dl').attr('class', 'stats');
 
     dl.append('dt').html('Total <abbr title="Lines of code">LOC</abbr>');
@@ -208,6 +209,10 @@ renderCommitInfo(data, commits);
 renderScatterPlot(data, commits);
 
 function updateScatterPlot(data, commits) {
+    if (commits.length === 0) {
+        d3.select('#chart').select('svg').select('g.dots').selectAll('circle').remove();
+        return;
+    }
     const width = 1000;
     const height = 600;
 
@@ -385,16 +390,17 @@ function onTimeSliderChange() {
 
     commitMaxTime = timeScale.invert(commitProgress);
 
-    document.querySelector('#commit-time').textContent =
+    document.querySelector('#commit-filter-time').textContent =
         commitMaxTime.toLocaleString('en', {
             dateStyle: 'long',
             timeStyle: 'short',
         });
 
     filteredCommits = commits.filter((d) => d.datetime <= commitMaxTime);
+    let filteredData = filteredCommits.flatMap((d) => d.lines);
 
     updateScatterPlot(data, filteredCommits);
-    renderCommitInfo(data, filteredCommits);
+    renderCommitInfo(filteredData, filteredCommits);
     updateFileDisplay(filteredCommits);
 }
 
@@ -461,28 +467,28 @@ d3.select('#scatter-story')
     );
 
 function onStepEnter(response) {
-  commitMaxTime = response.element.__data__.datetime;
+    commitMaxTime = response.element.__data__.datetime;
 
-  filteredCommits = commits.filter((d) => d.datetime <= commitMaxTime);
+    filteredCommits = commits.filter((d) => d.datetime <= commitMaxTime);
+    let filteredData = filteredCommits.flatMap((d) => d.lines);
 
-  updateScatterPlot(data, filteredCommits);
-  renderCommitInfo(data, filteredCommits);
-  updateFileDisplay(filteredCommits);
+    updateScatterPlot(data, filteredCommits);
+    renderCommitInfo(filteredData, filteredCommits);
+    updateFileDisplay(filteredCommits);
 
-  document.querySelector('#commit-time').textContent =
-    commitMaxTime.toLocaleString('en', {
-      dateStyle: 'long',
-      timeStyle: 'short',
-    });
-
-  document.querySelector('#commit-progress').value = timeScale(commitMaxTime);
+    document.querySelector('#commit-filter-time').textContent =
+        commitMaxTime.toLocaleString('en', {
+            dateStyle: 'long',
+            timeStyle: 'short',
+        }); 
+    document.querySelector('#commit-progress').value = timeScale(commitMaxTime);
 }
 
 const scroller = scrollama();
 
 scroller
-  .setup({
-    container: '#scrolly-1',
-    step: '#scrolly-1 .step',
-  })
-  .onStepEnter(onStepEnter);
+    .setup({
+        container: '#scrolly-1',
+        step: '#scrolly-1 .step',
+    })
+    .onStepEnter(onStepEnter);
