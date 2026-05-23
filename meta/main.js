@@ -216,7 +216,7 @@ function updateScatterPlot(data, commits) {
     const width = 1000;
     const height = 600;
 
-    const margin = { top: 10, right: 10, bottom: 30, left: 20 };
+    const margin = { top: 10, right: 10, bottom: 30, left: 40 };
 
     const usableArea = {
         top: margin.top,
